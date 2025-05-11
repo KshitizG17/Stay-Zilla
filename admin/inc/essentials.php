@@ -20,9 +20,16 @@ define('USERS_FOLDER','users/');
 
 //sendgrid API key
 
-// define('SENDGRID_API_KEY',"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"); //Uncomment to use
-define('SENDGRID_EMAIL',"p.vishalkumar08@gmail.com");
-define('SENDGRID_NAME',"Group 10");
+include('config.php');
+
+// Now you can use the constants
+// $sendgridApiKey = SENDGRID_API_KEY;
+// $sendgridEmail = SENDGRID_EMAIL;
+// $sendgridName = SENDGRID_NAME;
+
+// define('SENDGRID_API_KEY',$sendgridApiKey);
+// define('SENDGRID_EMAIL',$sendgridEmai);
+// define('SENDGRID_NAME',$sendgridName);
 
 
 function adminLogin(){
