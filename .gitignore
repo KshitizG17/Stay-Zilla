@@ -6,3 +6,4 @@
 *.bak
 *.sql
 inc/razorpay/
+.env
